@@ -5,13 +5,13 @@ body{
 }
 .newspaper-container{
     background-color:white;
-    width:90%;
+    width:900px;
     margin:auto;
     padding:30px;
-    border-radius:5px;
+    border-radius:10px;
     box-shadow:5px 5px;
 
-    /*instructions said to make the width 700px, but that was too small, so I set it to 90%, also it will maintain integrity when page is sized.*/
+    /*instructions said to make the width 700px, but that was too small, so I set it to 900ps, seemed to work better.*/
     
 }
 
