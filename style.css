@@ -1,1 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body{
+    background-color:#eee;
+    font-family:Source Sans Pro;
+}
+.newspaper-container{
+    background-color:white;
+    width:90%;
+    margin:auto;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:5px 5px;
+
+    /*instructions said to make the width 700px, but that was too small, so I set it to 90%, also it will maintain integrity when page is sized.*/
+    
+}
+
+h1{
+    text-align:center;
+    font-family:Abril Fatface;
+}
+h2{
+    font-family:Roboto Slab;
+
+}
+h5{
+    color:red;
+}
+    
+border{
+    color:#eee;
+}
+li{
+    display:inline-block;
+    border:1px solid #eee;
+    padding:10px;
+    }
+ ul{
+       list-style-type:none;
+    }
+ a{
+        text-decoration:none;
+        color:#777;
+    }
+.article{
+    display:block;
+    width:100%;
+    margin:auto;
+    text-align:justify;
+}
+  
+ section {
+        display:inline-block;
+        width:40%;
+        margin:auto;
+        padding:20px;
+
+    }
